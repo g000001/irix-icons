@@ -1,0 +1,22 @@
+ # Realmedia Format
+TYPE RealmediaFile
+    MATCH (string(1,3) == "RMF" && string(18,4) == "PROP");
+    LEGEND      Realmedia File
+    SETVAR      DefaultExtension        rm
+    CMD OPEN   realplay "$LEADER"
+    CMD ALTOPEN realplay "$LEADER"
+    ICON        {
+        include("iconlib/real.fti");     
+        include("../system/iconlib/MovieFile.fti");
+    }                          
+
+TYPE RealmediaFileURL
+    MATCH glob("*.ram")   && ascii;
+    LEGEND      Realmedia File URL
+    SETVAR      DefaultExtension        ram
+    CMD OPEN   realplay "$LEADER"
+    CMD ALTOPEN realplay "$LEADER"
+    ICON        {
+        include("iconlib/real.fti");     
+	include("iconlib/ram.fti");
+    }  

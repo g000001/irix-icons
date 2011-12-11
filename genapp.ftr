@@ -1,0 +1,14 @@
+TYPE GenappExecutable
+    MATCH       tag == 0x100003;
+    LEGEND      Genapp
+    SUPERTYPE   Executable
+    CMD OPEN    $LEADER $REST
+    CMD ALTOPEN launch -c $LEADER $REST
+    CMD DROP    $TARGET $SELECTED
+    ICON {
+        if (opened) {
+            include("iconlib/genapp.fti");
+        } else {
+            include("iconlib/genapp.fti");
+        }
+    }

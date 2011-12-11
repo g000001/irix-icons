@@ -1,0 +1,27 @@
+0x100000 /usr/local/RealPlayer8/realplay
+0x100001 /usr/bin/X11/xkill
+0x100002 /usr/local/bin/Magick-config
+0x100002 /usr/local/bin/Magick++-config
+0x100002 /usr/local/bin/import
+0x100002 /usr/local/bin/animate
+0x100002 /usr/local/bin/display
+0x100002 /usr/local/bin/montage
+0x100002 /usr/local/bin/mogrify
+0x100002 /usr/local/bin/identify
+0x100002 /usr/local/bin/convert
+0x100002 /usr/local/bin/composite
+0x100004 /usr/freeware/bin/vncviewer
+0x100004 /usr/freeware/bin/vncconnect
+0x100004 /usr/freeware/bin/vncserver
+0x100004 /usr/freeware/bin/vncpasswd
+0x100006 /usr/local/bin/X11/gtksee
+0x100007 /usr/local/bin/emacs
+0x100008 /usr/local/bin/gqmpeg
+0x100009 /usr/local/bin/X11/xzgv
+0x100010 /usr/bin/X11/toolchest
+0x100012 /usr/local/bin/X11/gentoo
+end
+0x100003 genapp
+0x100005 mozilla
+0x100011 wazilla
+0x100013 phoenix

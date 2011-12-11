@@ -1,0 +1,26 @@
+============
+IRIX icons
+============
+
+Installation
+============
+
+1. $ tar zxvf iconpack20.tar.gz
+
+2. $ cd iconpack20
+
+3. Edit ./tagfile
+
+4. $ su
+
+5. # ./setup
+
+6. logout
+
+7. login
+
+
+Option
+======
+
+cp ./phoenix ./mozilla ./wazilla ~/Desktop

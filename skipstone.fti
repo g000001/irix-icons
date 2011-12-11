@@ -1,0 +1,58 @@
+
+#	Path_0
+		color(outlinecolor);
+		bgnline();
+			vertex(10.00, 35.00);
+			vertex(10.00, 35.00);
+		endline();
+
+#	Path_1
+		color(-128);
+		bgnoutlinepolygon();
+			vertex(2.73, 49.91);
+			vertex(2.84, 38.00);
+			vertex(15.00, 32.50);
+			vertex(30.00, 40.00);
+			vertex(35.00, 57.50);
+			vertex(25.00, 62.50);
+			vertex(10.00, 60.00);
+		endoutlinepolygon(outlinecolor);
+
+#	Path_2
+		color(outlinecolor);
+		bgnline();
+			vertex(53.93, 39.41);
+			vertex(37.13, 49.21);
+		endline();
+
+#	Path_3
+		bgnline();
+			vertex(57.13, 27.41);
+			vertex(36.33, 40.21);
+		endline();
+
+#	Path_4
+		bgnline();
+			vertex(54.85, 21.94);
+			vertex(27.28, 30.61);
+		endline();
+
+#	Path_5
+		color(0);
+		bgnline();
+			vertex(90.00, 55.00);
+			vertex(58.73, 22.41);
+		endline();
+
+#	Path_6
+		color(-136);
+		bgnline();
+			vertex(57.73, 42.81);
+			vertex(90.00, 70.00);
+		endline();
+
+#	Path_7
+		bgnline();
+			vertex(93.13, 64.41);
+			vertex(60.00, 35.00);
+		endline();

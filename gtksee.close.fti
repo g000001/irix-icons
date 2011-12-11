@@ -1,0 +1,95 @@
+
+#	Path_0
+		color(-243);
+		bgnoutlinepolygon();
+			vertex(36.00, 45.00);
+			vertex(45.00, 49.50);
+			vertex(69.00, 52.50);
+			vertex(75.00, 34.50);
+			vertex(64.08, 23.04);
+			vertex(45.00, 16.50);
+			vertex(27.00, 16.50);
+			vertex(21.00, 25.50);
+			vertex(21.00, 34.50);
+		endoutlinepolygon(outlinecolor);
+
+#	Path_1
+		color(0);
+		bgnoutlinepolygon();
+			vertex(39.00, 49.50);
+			vertex(39.12, 46.56);
+			vertex(31.17, 41.62);
+			vertex(21.00, 34.50);
+			vertex(21.00, 37.50);
+		endoutlinepolygon(outlinecolor);
+
+#	Path_2
+		bgnoutlinepolygon();
+			vertex(27.00, 16.50);
+			vertex(21.00, 27.40);
+			vertex(18.00, 27.00);
+		endoutlinepolygon(outlinecolor);
+
+#	Path_3
+		bgnoutlinepolygon();
+			vertex(18.00, 36.00);
+			vertex(21.00, 37.50);
+			vertex(21.00, 27.40);
+			vertex(18.00, 27.00);
+		endoutlinepolygon(outlinecolor);
+
+#	Path_4
+		bgnoutlinepolygon();
+			vertex(69.00, 52.50);
+			vertex(39.12, 46.56);
+			vertex(39.00, 49.50);
+		endoutlinepolygon(0);
+
+#	Path_5
+		bgnoutlinepolygon();
+			vertex(75.00, 37.50);
+			vertex(75.00, 34.50);
+			vertex(66.56, 52.77);
+			vertex(69.00, 52.50);
+		endoutlinepolygon(outlinecolor);
+
+#	Path_6
+		color(-136);
+		bgnoutlinepolygon();
+			vertex(38.57, 33.05);
+			vertex(38.57, 36.05);
+			vertex(39.00, 43.50);
+			vertex(41.57, 46.55);
+			vertex(53.57, 43.55);
+			vertex(56.57, 36.05);
+			vertex(56.57, 27.05);
+			vertex(48.00, 27.00);
+			vertex(42.00, 30.00);
+		endoutlinepolygon(outlinecolor);
+
+#	Path_7
+		color(-242);
+		bgnoutlinepolygon();
+			vertex(48.00, 60.00);
+			vertex(64.32, 52.83);
+			vertex(48.36, 44.85);
+			vertex(32.24, 52.91);
+		endoutlinepolygon(-119);
+
+#	Path_8
+		color(-100);
+		bgnoutlinepolygon();
+			vertex(48.48, 26.15);
+			vertex(48.48, 44.91);
+			vertex(64.32, 52.83);
+			vertex(63.36, 34.35);
+		endoutlinepolygon(-119);
+
+#	Path_9
+		color(-81);
+		bgnoutlinepolygon();
+			vertex(33.36, 34.35);
+			vertex(48.48, 26.15);
+			vertex(48.36, 44.85);
+			vertex(32.24, 52.91);
+		endoutlinepolygon(-119);

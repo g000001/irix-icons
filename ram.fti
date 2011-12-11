@@ -1,0 +1,205 @@
+
+#	Path_0
+		color(-119);
+		bgnline();
+			vertex(57.00, 61.10);
+			vertex(42.00, 68.60);
+		endline();
+
+#	Path_1
+		bgnline();
+			vertex(57.00, 56.10);
+			vertex(42.00, 48.60);
+		endline();
+
+#	Path_2
+		bgnline();
+			vertex(62.00, 38.60);
+			vertex(62.00, 53.60);
+		endline();
+
+#	Path_3
+		color(shadowcolor);
+		bgnline();
+			vertex(79.40, 52.00);
+			vertex(71.40, 56.10);
+		endline();
+
+#	Path_4
+		color(-119);
+		bgnline();
+			vertex(62.00, 78.60);
+			vertex(62.00, 63.60);
+		endline();
+
+#	Path_5
+		color(shadowcolor);
+		bgnline();
+			vertex(79.76, 65.28);
+			vertex(71.40, 61.10);
+		endline();
+
+#	Path_6
+		color(-119);
+		bgnclosedline();
+			vertex(62.00, 53.60);
+			vertex(67.00, 56.10);
+			vertex(67.00, 61.10);
+			vertex(62.00, 63.60);
+			vertex(57.00, 61.10);
+			vertex(57.00, 56.10);
+		endclosedline();
+
+#	Path_7
+		bgnclosedline();
+			vertex(62.00, 47.20);
+			vertex(73.47, 52.93);
+			vertex(73.47, 64.40);
+			vertex(62.00, 70.14);
+			vertex(50.53, 64.40);
+			vertex(50.53, 52.93);
+		endclosedline();
+
+#	Path_7
+		color(shadowcolor);
+		bgnpolygon();
+			vertex(68.18, 1.58);
+			vertex(63.30, 3.68);
+			vertex(61.67, 7.77);
+			vertex(63.30, 11.62);
+			vertex(67.80, 13.91);
+			vertex(74.40, 14.60);
+			vertex(80.61, 13.64);
+			vertex(85.49, 11.62);
+			vertex(87.26, 7.85);
+			vertex(85.49, 3.68);
+			vertex(80.61, 1.50);
+			vertex(74.40, 0.70);
+		endpolygon();
+
+#	Path_7
+		color(-164);
+		bgnoutlinepolygon();
+			vertex(68.18, 46.63);
+			vertex(63.30, 50.54);
+			vertex(61.67, 58.16);
+			vertex(63.30, 65.34);
+			vertex(68.33, 69.41);
+			vertex(74.40, 70.89);
+			vertex(80.61, 69.11);
+			vertex(85.49, 65.34);
+			vertex(87.26, 58.32);
+			vertex(85.49, 50.54);
+			vertex(80.61, 46.48);
+			vertex(74.40, 45.00);
+		endoutlinepolygon(outlinecolor);
+
+#	Path_13
+		color(-119);
+		bgnpolygon();
+			vertex(68.33, 69.41);
+			vertex(74.40, 70.89);
+			vertex(80.61, 69.11);
+			vertex(74.17, 67.49);
+		endpolygon();
+
+#	Path_14
+		color(-195);
+		bgnpolygon();
+			vertex(66.44, 67.88);
+			vertex(63.30, 65.34);
+			vertex(61.67, 58.16);
+			vertex(62.50, 54.28);
+			vertex(63.56, 56.55);
+			vertex(65.62, 55.69);
+			vertex(67.33, 54.66);
+			vertex(68.52, 57.06);
+			vertex(70.06, 58.77);
+			vertex(70.41, 60.65);
+			vertex(67.84, 61.25);
+			vertex(65.62, 62.19);
+			vertex(65.62, 64.07);
+			vertex(67.84, 65.53);
+		endpolygon();
+
+#	Path_15
+		bgnpolygon();
+			vertex(70.80, 51.60);
+			vertex(71.60, 48.00);
+			vertex(71.82, 45.68);
+			vertex(68.18, 46.63);
+			vertex(63.30, 50.54);
+			vertex(62.50, 54.28);
+		endpolygon();
+
+#	Path_16
+		bgnpolygon();
+			vertex(72.97, 64.41);
+			vertex(75.20, 65.78);
+			vertex(76.39, 63.05);
+			vertex(74.34, 60.99);
+		endpolygon();
+
+#	Path_17
+		bgnpolygon();
+			vertex(83.63, 66.78);
+			vertex(85.49, 65.34);
+			vertex(87.26, 58.32);
+			vertex(86.83, 56.38);
+			vertex(83.75, 57.06);
+			vertex(82.38, 57.40);
+			vertex(81.87, 55.69);
+			vertex(80.84, 57.06);
+			vertex(78.96, 56.03);
+			vertex(78.96, 56.03);
+			vertex(77.76, 57.23);
+			vertex(78.10, 59.11);
+			vertex(78.96, 60.31);
+			vertex(80.84, 60.31);
+			vertex(81.87, 61.68);
+			vertex(81.18, 62.88);
+			vertex(79.64, 62.88);
+			vertex(79.13, 64.93);
+		endpolygon();
+
+#	Path_18
+		bgnpolygon();
+			vertex(79.64, 54.49);
+			vertex(82.04, 53.98);
+			vertex(86.60, 55.38);
+			vertex(85.49, 50.54);
+			vertex(80.61, 46.48);
+			vertex(78.64, 46.01);
+			vertex(79.47, 47.65);
+			vertex(77.59, 48.34);
+			vertex(76.39, 50.90);
+			vertex(78.10, 53.98);
+		endpolygon();
+
+#	Path_7
+		color(outlinecolor);
+		bgnclosedline();
+			vertex(68.18, 46.63);
+			vertex(63.30, 50.54);
+			vertex(61.67, 58.16);
+			vertex(63.30, 65.34);
+			vertex(68.33, 69.41);
+			vertex(74.40, 70.89);
+			vertex(80.61, 69.11);
+			vertex(85.49, 65.34);
+			vertex(87.26, 58.32);
+			vertex(85.49, 50.54);
+			vertex(80.61, 46.48);
+			vertex(74.40, 45.00);
+		endclosedline();
+
+#	Path_24
+		color(-119);
+		bgnline();
+			vertex(72.40, 71.60);
+			vertex(62.00, 76.60);
+			vertex(44.08, 67.56);
+			vertex(43.92, 49.56);
+			vertex(62.00, 40.60);
+			vertex(70.00, 45.00);
+		endline();

@@ -1,0 +1,33 @@
+
+#	Path_0
+		color(outlinecolor);
+		bgnline();
+			vertex(15.64, 57.24);
+			vertex(21.64, 54.24);
+			vertex(14.64, 45.74);
+			vertex(21.64, 42.24);
+		endline();
+
+#	Path_1
+		bgnline();
+			vertex(28.64, 35.04);
+			vertex(28.64, 51.14);
+		endline();
+
+#	Path_2
+		bgnline();
+			vertex(28.64, 48.94);
+			vertex(30.44, 50.44);
+			vertex(32.74, 49.44);
+			vertex(34.14, 44.84);
+			vertex(34.14, 41.24);
+			vertex(31.44, 38.14);
+			vertex(29.94, 38.74);
+			vertex(28.64, 41.24);
+		endline();
+
+#	Path_3
+		bgnline();
+			vertex(24.64, 40.44);
+			vertex(24.64, 52.24);
+		endline();

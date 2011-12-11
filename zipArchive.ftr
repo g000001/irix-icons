@@ -1,0 +1,24 @@
+TYPE zipArchive
+MATCH       long(0) == 0x504b0304;
+#MATCH       glob("*.zip");
+LEGEND      zip archive
+CMD OPEN    for i in $LEADER $REST
+            do
+	            winterm -H -t "Contents of $i" -c unzip "\"$i\""
+            done
+CMD ALTOPEN for i in $LEADER $REST
+            do
+                winterm -H -t "Contents of $i" -c tar unzip "\"$i\""
+            done
+ICON {
+       include("../system/iconlib/Archive.pre.fti");
+       include("iconlib/zipArchive.fti");
+       if (opened) {
+           include("../system/iconlib/Archive.open.fti");
+       } else {
+           include("../system/iconlib/Archive.closed.fti");
+       }
+       
+    }
+
+

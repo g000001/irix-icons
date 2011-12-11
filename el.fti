@@ -1,0 +1,54 @@
+
+#	M Thicker Lines
+		color(outlinecolor);
+		bgnline();
+			vertex(47.00, 41.00);
+			vertex(47.00, 68.00);
+		endline();
+
+#	Path_1
+		bgnline();
+			vertex(59.00, 47.50);
+			vertex(49.00, 41.80);
+			vertex(49.00, 58.50);
+			vertex(49.00, 68.80);
+		endline();
+
+#	Path_2
+		bgnline();
+			vertex(49.00, 68.80);
+			vertex(58.00, 73.00);
+		endline();
+
+#	Path_3
+		bgnline();
+			vertex(61.00, 48.50);
+			vertex(61.00, 74.50);
+		endline();
+
+#	Path_4
+		bgnline();
+			vertex(63.00, 49.50);
+			vertex(63.00, 75.50);
+		endline();
+
+#	Path_5
+		bgnline();
+			vertex(63.00, 49.50);
+			vertex(73.00, 55.50);
+		endline();
+
+#	Path_6
+		bgnline();
+			vertex(48.96, 57.58);
+			vertex(57.96, 61.78);
+		endline();
+
+#	Path_7
+		color(0);
+		bgnpolygon();
+			vertex(44.00, 43.00);
+			vertex(41.00, 41.50);
+			vertex(41.00, 38.50);
+			vertex(44.00, 40.00);
+		endpolygon();

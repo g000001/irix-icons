@@ -1,0 +1,90 @@
+
+#	Icon Shadow
+		color(shadowcolor);
+		bgnpolygon();
+			vertex(38.83, 0.22);
+			vertex(22.00, 9.12);
+			vertex(60.55, 28.78);
+			vertex(77.82, 20.20);
+		endpolygon();
+
+#	Paper Sheet 1
+		color(iconcolor);
+		bgnoutlinepolygon();
+			vertex(22.00, 19.87);
+			vertex(22.00, 79.50);
+			vertex(60.01, 98.93);
+			vertex(60.01, 39.20);
+		endoutlinepolygon(outlinecolor);
+
+#	Paper Sheet 2
+		color(-164);
+		bgnoutlinepolygon();
+			vertex(30.69, 15.53);
+			vertex(30.69, 74.83);
+			vertex(68.70, 94.59);
+			vertex(68.70, 34.97);
+		endoutlinepolygon(outlinecolor);
+
+#	Third Sheet of Paper -- Closed
+		color(-64);
+		bgnoutlinepolygon();
+			vertex(39.59, 11.51);
+			vertex(39.59, 70.48);
+			vertex(77.39, 89.92);
+			vertex(77.39, 30.84);
+		endoutlinepolygon(outlinecolor);
+
+# lettering
+		color(-119);
+		bgnline();
+			vertex(46.37, 24.98);
+			vertex(49.20, 26.49);
+			vertex(51.82, 27.90);
+			vertex(52.82, 31.40);
+			vertex(51.82, 33.90);
+			vertex(51.82, 33.90);
+			vertex(48.60, 33.80);
+			vertex(46.26, 32.70);
+			vertex(46.27, 17.81);
+		endline();
+
+#	Path_7
+		bgnline();
+			vertex(60.00, 25.00);
+			vertex(54.82, 22.40);
+			vertex(54.82, 36.40);
+			vertex(59.22, 38.30);
+		endline();
+
+#	Path_8
+		bgnline();
+			vertex(59.26, 32.40);
+			vertex(54.95, 30.23);
+		endline();
+
+#	Path_3
+		bgnline();
+			vertex(46.37, 24.98);
+			vertex(52.82, 21.40);
+		endline();
+
+#	Path_8
+		bgnline();
+			vertex(67.37, 28.83);
+			vertex(63.97, 41.63);
+			vertex(60.97, 24.83);
+		endline();
+
+#	Path_9
+		bgnline();
+			vertex(61.39, 29.80);
+			vertex(66.82, 32.40);
+		endline();
+
+#	Path_6
+		bgnline();
+			vertex(76.05, 32.67);
+			vertex(69.01, 29.15);
+			vertex(68.97, 44.13);
+		endline();

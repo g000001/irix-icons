@@ -1,0 +1,62 @@
+#!/bin/sh
+
+FTI_FILES=*.fti
+FTR_FILES=*.ftr
+TAGFILE=tagfile
+
+filetypedir=/usr/lib/filetype
+local_ftr_dir=$filetypedir/local
+local_fti_dir=$filetypedir/local/iconlib
+
+SGIMAKE=/sbin/make
+SGIINSTALL=/sbin/install
+TAG=/usr/sbin/tag
+
+ft_install()
+{
+    targdir=local_${ft}_dir
+    for file in *.${ft}
+    do
+    	 eval echo $SGIINSTALL  -c -m 644 $file $"$targdir"
+	 eval $SGIINSTALL  -c -m 644 $file $"$targdir"
+    done
+}
+
+tagging()
+{
+    while read num prog
+    do
+	if [ $num == end ]
+	then
+	    break
+	else
+	    if which $prog>/dev/null 2>&1
+	    then
+		echo $TAG $num $prog
+		$TAG $num $prog
+	    fi
+	fi
+    done<$TAGFILE
+}
+
+################
+# install
+####
+
+for type in fti ftr
+do
+    ft=$type
+    ft_install
+done
+
+(cd /usr/lib/filetype && $SGIMAKE -u)
+
+################
+# tagging
+####
+
+tagging
+
+exit 0
+
+

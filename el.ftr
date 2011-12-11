@@ -1,0 +1,38 @@
+TYPE EmacsLispProgram
+MATCH       glob("*.el");
+LEGEND      Emacs Lisp program source file
+SUPERTYPE   Ascii
+SUPERTYPE   SourceFile
+CMD OPEN    $WINEDITOR $LEADER $REST
+CMD ALTOPEN $WINEDITOR $LEADER $REST
+CMD PRINT   xconfirm -h "`gettxt uxsgidesktop:809 'Print Status'`" \
+              -B "`gettxt uxsgidesktop:736 'Continue'`" \          
+              -t """`routeprint -g -t $LEADERTYPE $LEADER $REST`""" \
+              > /dev/null 2>&1                                      
+ICON        {                
+#       This File is Like Program, except for .el on Front
+    include("../system/iconlib/Program.pre.fti");             
+    if (opened) {                     
+        include("../system/iconlib/Program.preopen.fti");
+        include("iconlib/el.fti");      
+        include("../system/iconlib/Program.postopen.fti");
+    } else {                                   
+        include("../system/iconlib/Program.closed.fti");
+        include("iconlib/el.fti");     
+    }                                  
+}   
+
+TYPE EmacsLispCompiledProgram
+MATCH       glob("*.elc");
+LEGEND      Emacs Lisp program compiled file
+SUPERTYPE   Ascii
+SUPERTYPE   SourceFile
+
+ICON        {                
+#       This File is Like Program, except for .elc on Front
+    if (opened) {                     
+        include("iconlib/elc.fti");      
+    } else {                                   
+        include("iconlib/elc.fti");     
+    }                                  
+}   
